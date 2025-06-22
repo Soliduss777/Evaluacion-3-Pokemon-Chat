@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+
 function Chat({ pokemon, onClose }) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");

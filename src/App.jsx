@@ -41,7 +41,7 @@ function App() {
 
   return (
     <Container>
-      <h1 className="text-center my-4">Pokédex Chat</h1>
+      <h1 className="text-center my-4">Chat Pokémon</h1>
 
       <Row className="mb-4">
         <Col md={6}>
@@ -69,8 +69,6 @@ function App() {
       </Row>
     </Container>
   );
-  
-  
 }
 
 export default App;
